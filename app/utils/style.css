@@ -1,0 +1,204 @@
+/* Modern, high-contrast UI styling */
+
+/* Base styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1E1E1E;
+    background-color: #f9fafb;
+}
+
+/* Gradient header background */
+.main-header-container {
+    background: linear-gradient(90deg, #6366F1 0%, #8B5CF6 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.2);
+}
+
+.main-header-container h1, .main-header-container h3 {
+    color: white !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-header-container h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.main-header-container h3 {
+    font-weight: 400 !important;
+    opacity: 0.9;
+}
+
+/* Card styling */
+.stCard {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: 1px solid #eaecef;
+}
+
+/* Section headers */
+h2, h3, h4 {
+    color: #4338CA;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.8rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Button styling */
+.stButton button {
+    background: linear-gradient(90deg, #6366F1 0%, #8B5CF6 100%);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+}
+
+.stButton button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(99, 102, 241, 0.3);
+}
+
+.stButton button:active {
+    transform: translateY(1px);
+}
+
+/* Upload container */
+.uploadedFileData {
+    border: 2px dashed #c7d2fe;
+    background-color: #eef2ff;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.uploadedFileData:hover {
+    border-color: #6366F1;
+    background-color: #e0e7ff;
+}
+
+/* Download button */
+.download-button {
+    background: linear-gradient(90deg, #10B981 0%, #059669 100%);
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+}
+
+.download-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(16, 185, 129, 0.3);
+}
+
+/* Code blocks */
+.stCodeBlock {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #eaecef;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+pre {
+    background-color: #1E1E1E !important;
+    padding: 1.5rem !important;
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 0.5rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #f9fafb;
+    border-radius: 8px 8px 0 0;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #6366F1 !important;
+    color: white !important;
+}
+
+/* Sidebar styling */
+section[data-testid="stSidebar"] {
+    background-color: #f5f7ff;
+    border-right: 1px solid #e0e7ff;
+}
+
+section[data-testid="stSidebar"] > div {
+    padding: 2rem 1rem;
+}
+
+section[data-testid="stSidebar"] h2 {
+    color: #4338CA;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+section[data-testid="stSidebar"] h3 {
+    color: #6366F1;
+    font-size: 1.2rem !important;
+    margin-top: 1.5rem !important;
+}
+
+/* Image styling */
+.stImage img {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Text area */
+.stTextArea textarea {
+    border-radius: 8px;
+    border: 1px solid #c7d2fe;
+}
+
+.stTextArea textarea:focus {
+    border-color: #6366F1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+/* Alert boxes */
+.stAlert {
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    color: #6B7280;
+    font-size: 0.9rem;
+}
+
+/* Separator */
+hr {
+    margin: 2rem 0;
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(99, 102, 241, 0.1) 0%, rgba(99, 102, 241, 0.6) 50%, rgba(99, 102, 241, 0.1) 100%);
+}
+
+/* Custom class for the main title section */
+.title-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
